@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UFT-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="login.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+        <title>Arian Home</title> 
+    </head>
+    
+    <body>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">Arian Home</div>
+                <input id="menu-toggle" type="checkbox" style="z-index: -1000;"/>
+                <label class='menu-button-container' for="menu-toggle">
+                    <div class='menu-button'></div>
+                </label>
+
+                <ul class="nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="login.html">Login</a></li>                 
+                    <li><a href="#">Contact</a></li>                
+                </ul>                
+            </div>
+        </nav>
+        
+        <div class="con" style="align-items: center; margin-top: 30px;">
+            <div class="screen">
+                <div class="screen__content">
+                    <form class="login">
+                        <div class="login__field">
+                            <i class="login__icon fas fa-user"></i>
+                            <input type="text" class="login__input" placeholder="User name / Email">
+                        </div>
+                        <div class="login__field">
+                            <i class="login__icon fas fa-lock"></i>
+                            <input type="password" class="login__input" placeholder="Password">
+                        </div>
+                        <button class="button login__submit">
+                            <span class="button__text">Log In Now</span>
+                            <i class="button__icon fas fa-chevron-right"></i>
+                        </button>				
+                    </form>
+                    <div class="social-login">
+                        <h3><a href="#">log in via</a></h3>
+                        <div class="social-icons">
+                            <a href="#" class="social-login__icon fab fa-instagram"></a>
+                            <a href="#" class="social-login__icon fab fa-facebook"></a>
+                            <a href="#" class="social-login__icon fab fa-twitter"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="screen__background">
+                    <span class="screen__background__shape screen__background__shape4"></span>
+                    <span class="screen__background__shape screen__background__shape3"></span>		
+                    <span class="screen__background__shape screen__background__shape2"></span>
+                    <span class="screen__background__shape screen__background__shape1"></span>
+                </div>		
+            </div>
+        </div>
+    </body>
+</html>
